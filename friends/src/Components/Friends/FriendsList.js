@@ -5,14 +5,12 @@ const FriendsList = props => {
   console.log(props);
   return (
       <div>
+        <h1>Friends List</h1>
         {props.friends.map(friend => (
             <FriendsCard
             friend={friend}
             />
         ))}
-        <h1>Friends List</h1>
-        
-        
       </div>
     
   )
