@@ -1,8 +1,8 @@
 import React from 'react';
 
-const FrinedsCard = props =>{
+const FriendsCard = props =>{
     return(
-        <div>Friends Card</div>
+        <div>{props.friend.name}</div>
     )
 }
 
